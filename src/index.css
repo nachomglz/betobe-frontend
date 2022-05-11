@@ -1,13 +1,72 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  padding: none;
+  margin: none;
+
+}
+
+body {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  margin: 0;
+  padding: 0;
+  line-height: 1.8;
+  padding-bottom: 5rem;
+  background-color: #ddd;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+}
+
+.container {
+  width: 95%;
+  max-width: 125rem;
+  margin: 0 auto;
+}
+
+.btn {
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  border-radius: 8px;
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+}
+.btn:hover {
+  border-radius: 0px;;
+}
+
+.btn-orange {
+  background-color: #E54A1E;
+  color: #fff;
+}
+.btn-transparent {
+  border: 1px solid #9B9B9B;
+}
+
+input,
+textarea,
+select {
+  background-color: #ececec;
+  border: none;
+  font-size: 1.6rem;
+  border-radius: 1.7rem;
+  padding: 1.2rem 1.8rem;
 }
